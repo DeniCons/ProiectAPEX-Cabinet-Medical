@@ -1,0 +1,93 @@
+INSERT INTO cbGrad VALUES ('R', 'rezident', 80);
+INSERT INTO cbGrad VALUES ('S', 'specialist', 120);
+INSERT INTO cbGrad VALUES ('P', 'primar', 150);
+
+
+INSERT INTO cbSpecialitate VALUES ('gastro', 'gastroenterologie', 1.4);
+INSERT INTO cbSpecialitate VALUES ('cardio', 'cardiologie', 1.6);
+INSERT INTO cbSpecialitate VALUES ('derma', 'dermatologie', 1.2);
+INSERT INTO cbSpecialitate VALUES ('pedia', 'pediatrie', 1.3);
+
+
+INSERT INTO cbMedic VALUES ('M001', 'Popescu Andrei', 'cardio', 'P');
+INSERT INTO cbMedic VALUES ('M002', 'Ionescu Maria', 'derma', 'R');
+INSERT INTO cbMedic VALUES ('M003', 'Vasilescu Elena', 'pedia', 'S');
+INSERT INTO cbMedic VALUES ('M004', 'Grigore Alina', 'gastro', 'S');
+INSERT INTO cbMedic VALUES ('M005', 'Dumitrescu Paul', 'cardio', 'R');
+INSERT INTO cbMedic VALUES ('M006', 'Radu Irina', 'gastro', 'P');
+INSERT INTO cbMedic VALUES ('M007', 'Marin George', 'derma', 'S');
+INSERT INTO cbMedic VALUES ('M008', 'Enache Ioana', 'pedia', 'P');
+
+
+INSERT INTO cbProgramare VALUES (100001, TO_DATE('2024-04-01', 'YYYY-MM-DD'), '1900101011111', 'Matei Ion', 'M001', 'C101');
+INSERT INTO cbProgramare VALUES (100002, TO_DATE('2024-04-02', 'YYYY-MM-DD'), '2900202022222', 'Vasilescu Ana', 'M002', 'C102');
+INSERT INTO cbProgramare VALUES (100003, TO_DATE('2024-04-03', 'YYYY-MM-DD'), '1900303033333', 'Marinescu Vlad', 'M003', 'C103');
+INSERT INTO cbProgramare VALUES (100004, TO_DATE('2024-04-04', 'YYYY-MM-DD'), '2900404044444', 'Georgescu Elena', 'M004', 'C104');
+INSERT INTO cbProgramare VALUES (100005, TO_DATE('2024-04-05', 'YYYY-MM-DD'), '1900505055555', 'Popa Mihai', 'M005', 'C105');
+INSERT INTO cbProgramare VALUES (100006, TO_DATE('2024-04-06', 'YYYY-MM-DD'), '2900606066666', 'Tudor Andreea', 'M006', 'C106');
+INSERT INTO cbProgramare VALUES (100007, TO_DATE('2024-04-07', 'YYYY-MM-DD'), '1900707077777', 'Stan George', 'M007', 'C107');
+INSERT INTO cbProgramare VALUES (100008, TO_DATE('2024-04-08', 'YYYY-MM-DD'), '2900808088888', 'Nistor Laura', 'M008', 'C108');
+INSERT INTO cbProgramare VALUES (100009, TO_DATE('2024-04-09', 'YYYY-MM-DD'), '1900909099999', 'Cojocaru Radu', 'M001', 'C101');
+INSERT INTO cbProgramare VALUES (100010, TO_DATE('2024-04-10', 'YYYY-MM-DD'), '2901010101010', 'Dinu Paula', 'M002', 'C102');
+INSERT INTO cbProgramare VALUES (100011, TO_DATE('2024-04-11', 'YYYY-MM-DD'), '1901111111111', 'Gheorghe Alina', 'M003', 'C103');
+INSERT INTO cbProgramare VALUES (100012, TO_DATE('2024-04-12', 'YYYY-MM-DD'), '2901212121212', 'Lupu Daniel', 'M004', 'C104');
+INSERT INTO cbProgramare VALUES (100013, TO_DATE('2024-04-13', 'YYYY-MM-DD'), '1901313131313', 'Ilie Roxana', 'M005', 'C105');
+INSERT INTO cbProgramare VALUES (100014, TO_DATE('2024-04-14', 'YYYY-MM-DD'), '2901414141414', 'Moraru Raul', 'M006', 'C106');
+INSERT INTO cbProgramare VALUES (100015, TO_DATE('2024-04-15', 'YYYY-MM-DD'), '1901515151515', 'Pavel Sorina', 'M007', 'C107');
+INSERT INTO cbProgramare VALUES (100016, TO_DATE('2024-04-16', 'YYYY-MM-DD'), '2901616161616', 'Oprea Mihnea', 'M008', 'C108');
+INSERT INTO cbProgramare VALUES (100017, TO_DATE('2024-04-17', 'YYYY-MM-DD'), '1901717171717', 'Voicu Iulian', 'M001', 'C101');
+INSERT INTO cbProgramare VALUES (100018, TO_DATE('2024-04-18', 'YYYY-MM-DD'), '2901818181818', 'Radulescu Anca', 'M002', 'C102');
+INSERT INTO cbProgramare VALUES (100019, TO_DATE('2024-04-19', 'YYYY-MM-DD'), '1901919191919', 'Antonescu Vlad', 'M003', 'C103');
+INSERT INTO cbProgramare VALUES (100020, TO_DATE('2024-04-20', 'YYYY-MM-DD'), '2902020202020', 'Stefanescu Ilinca', 'M004', 'C104');
+INSERT INTO cbProgramare VALUES (100021, TO_DATE('2024-04-21', 'YYYY-MM-DD'), '1902121212121', 'Sima Eduard', 'M005', 'C105');
+INSERT INTO cbProgramare VALUES (100022, TO_DATE('2024-04-22', 'YYYY-MM-DD'), '2902222222222', 'Costache Mirela', 'M006', 'C106');
+INSERT INTO cbProgramare VALUES (100023, TO_DATE('2024-04-23', 'YYYY-MM-DD'), '1902323232323', 'Ignat Bogdan', 'M007', 'C107');
+INSERT INTO cbProgramare VALUES (100024, TO_DATE('2024-04-24', 'YYYY-MM-DD'), '2902424242424', 'Munteanu Raluca', 'M008', 'C108');
+INSERT INTO cbProgramare VALUES (100025, TO_DATE('2024-04-25', 'YYYY-MM-DD'), '1902525252525', 'David Cosmin', 'M001', 'C101');
+INSERT INTO cbProgramare VALUES (100026, TO_DATE('2024-04-26', 'YYYY-MM-DD'), '2902626262626', 'Preda Iuliana', 'M002', 'C102');
+INSERT INTO cbProgramare VALUES (100027, TO_DATE('2024-04-27', 'YYYY-MM-DD'), '1902727272727', 'Zamfir Daniel', 'M003', 'C103');
+INSERT INTO cbProgramare VALUES (100028, TO_DATE('2024-04-28', 'YYYY-MM-DD'), '2902828282828', 'Dragomir Silvia', 'M004', 'C104');
+INSERT INTO cbProgramare VALUES (100029, TO_DATE('2024-04-29', 'YYYY-MM-DD'), '1902929292929', 'Mateescu Ruxandra', 'M005', 'C105');
+INSERT INTO cbProgramare VALUES (100030, TO_DATE('2024-04-30', 'YYYY-MM-DD'), '2903030303030', 'Constantinescu Vlad', 'M006', 'C106');
+
+
+INSERT INTO cbReteta VALUES (100001, 1, 'Paracetamol', '3x1', 5);
+INSERT INTO cbReteta VALUES (100001, 2, 'Ibuprofen', '2x1', 7);
+INSERT INTO cbReteta VALUES (100002, 1, 'Strepsils', '4x1', 3);
+INSERT INTO cbReteta VALUES (100002, 2, 'Nurofen', '2x1', 5);
+INSERT INTO cbReteta VALUES (100003, 1, 'Fervex', '3x1', 6);
+INSERT INTO cbReteta VALUES (100003, 2, 'Aspirina', '2x1', 4);
+INSERT INTO cbReteta VALUES (100004, 1, 'Augmentin', '2x1', 7);
+INSERT INTO cbReteta VALUES (100004, 2, 'Zinnat', '2x1', 6);
+INSERT INTO cbReteta VALUES (100005, 1, 'Ospamox', '3x1', 5);
+INSERT INTO cbReteta VALUES (100005, 2, 'Algocalmin', '2x1', 4);
+INSERT INTO cbReteta VALUES (100006, 1, 'Parasinus', '3x1', 5);
+INSERT INTO cbReteta VALUES (100006, 2, 'Coldrex', '2x1', 6);
+INSERT INTO cbReteta VALUES (100007, 1, 'ACC', '3x1', 7);
+INSERT INTO cbReteta VALUES (100007, 2, 'Tantum Verde', '2x1', 4);
+INSERT INTO cbReteta VALUES (100008, 1, 'Pansipon', '3x1', 5);
+INSERT INTO cbReteta VALUES (100008, 2, 'No-Spa', '2x1', 3);
+INSERT INTO cbReteta VALUES (100009, 1, 'Ketonal', '2x1', 5);
+INSERT INTO cbReteta VALUES (100009, 2, 'Dicarbocalm', '1x1', 6);
+INSERT INTO cbReteta VALUES (100010, 1, 'Espumisan', '3x1', 4);
+INSERT INTO cbReteta VALUES (100010, 2, 'Smecta', '2x1', 4);
+INSERT INTO cbReteta VALUES (100011, 1, 'Linex', '3x1', 3);
+INSERT INTO cbReteta VALUES (100011, 2, 'Imodium', '2x1', 2);
+INSERT INTO cbReteta VALUES (100012, 1, 'Nurofen Forte', '3x1', 5);
+INSERT INTO cbReteta VALUES (100012, 2, 'Panseco', '2x1', 3);
+INSERT INTO cbReteta VALUES (100013, 1, 'Vitamina C', '3x1', 7);
+INSERT INTO cbReteta VALUES (100013, 2, 'Fervex', '3x1', 6);
+INSERT INTO cbReteta VALUES (100014, 1, 'Modafen', '2x1', 5);
+INSERT INTO cbReteta VALUES (100014, 2, 'Paduden', '2x1', 6);
+INSERT INTO cbReteta VALUES (100015, 1, 'Bixtonim', '1x2', 4);
+INSERT INTO cbReteta VALUES (100015, 2, 'Claritin', '1x1', 5);
+INSERT INTO cbReteta VALUES (100016, 1, 'Xyzal', '1x1', 6);
+INSERT INTO cbReteta VALUES (100016, 2, 'Aerius', '1x1', 5);
+INSERT INTO cbReteta VALUES (100017, 1, 'Olynth', '1x2', 5);
+INSERT INTO cbReteta VALUES (100017, 2, 'Nasonex', '2x1', 4);
+INSERT INTO cbReteta VALUES (100018, 1, 'Rinofug', '2x1', 6);
+INSERT INTO cbReteta VALUES (100018, 2, 'Sinupret', '3x1', 7);
+INSERT INTO cbReteta VALUES (100019, 1, 'Bromhexin', '3x1', 6);
+INSERT INTO cbReteta VALUES (100019, 2, 'Prospan', '2x1', 5);
+INSERT INTO cbReteta VALUES (100020, 1, 'Theraflu', '2x1', 3);
+INSERT INTO cbReteta VALUES (100020, 2, 'Antinevralgic', '2x1', 4);
